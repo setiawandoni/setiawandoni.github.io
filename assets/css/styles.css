@@ -315,9 +315,11 @@ img {
 @media (max-width: 767px) {
   .skills__names {
     display: flex;
-    align-items: left;
+    align-items: flex-start; /* Atur elemen agar rata kiri secara vertikal */
+    justify-content: flex-start; /* Mengatur agar elemen flex berada di kiri secara horizontal */
   }
 }
+
 /* Experience Section */
 
 #experience {
