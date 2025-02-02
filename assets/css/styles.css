@@ -311,6 +311,13 @@ img {
   border-radius: 0.5rem;
 }
 
+/* Responsive */
+@media (max-width: 767px) {
+  .skills__names {
+    display: flex;
+    align-items: left;
+  }
+}
 /* Experience Section */
 
 #experience {
