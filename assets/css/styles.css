@@ -412,44 +412,47 @@ img {
   color: #333;
 }
 
-/* RESPONSIVE DESIGN */
-@media (max-width: 768px) {
-  .timeline::before {
-    left: 20px; /* Garis tengah sedikit ke kiri */
-  }
-
-  .timeline-image {
-    left: 20px; /* Gambar pindah ke kiri */
-    transform: none;
-  }
-
-  .timeline-panel {
-    width: calc(100% - 70px);
-    margin-left: 70px;
-    text-align: left;
-  }
-
-  .timeline-inverted .timeline-panel {
-    margin-left: 70px;
-    text-align: left;
-  }
-}
-
-
 /* Responsive */
 @media (max-width: 767px) {
+  /* Gambar tetap berada di tengah garis */
   .timeline-image {
-      width: 80px;
-      height: 80px;
+    width: 60px;
+    height: 60px;
+    margin-left: auto; /* Mengatur margin kiri otomatis */
+    margin-right: auto; /* Mengatur margin kanan otomatis */
+    position: relative;
+    left: 0; /* Pastikan gambar tidak bergeser */
+    top: 0; /* Pastikan gambar tetap pada posisi normal */
   }
 
+  /* Garis tengah disesuaikan */
+  .timeline::before {
+    left: 50%; /* Pastikan garis tetap di tengah */
+    transform: translateX(-50%); /* Geser garis ke tengah */
+  }
+
+  /* Panel timeline rata kiri */
   .timeline-panel {
-      width: 90%;
-      margin-left: 5%;
+    width: 90%;
+    margin-left: 0; /* Menghilangkan margin kiri */
+    text-align: left; /* Agar teks juga rata kiri */
   }
 
-  .timeline-inverted {
-      margin-left: 0%;
+  /* Mengatur elemen yang terbalik agar rata kiri */
+  .timeline-inverted .timeline-panel {
+    margin-left: 0; /* Menghilangkan margin kiri */
+    text-align: left; /* Pastikan teks rata kiri */
+  }
+
+  /* Judul dan subheading juga rata kiri */
+  .timeline-panel .timeline-heading h4,
+  .timeline-panel .timeline-heading .subheading {
+    text-align: left; /* Pastikan heading rata kiri */
+  }
+
+  /* Teks body juga rata kiri */
+  .timeline-panel .timeline-body p {
+    text-align: left;
   }
 }
 
