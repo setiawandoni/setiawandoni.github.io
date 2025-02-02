@@ -316,7 +316,8 @@ img {
   .skills__names {
     display: flex;
     align-items: center;
-    font-size: 8px; 
+    font-size: 5px; 
+    text-align: left;
   }
 }
 
