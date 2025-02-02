@@ -315,15 +315,14 @@ img {
 @media (max-width: 767px) {
   .skills__names {
     display: flex;
-    align-items: flex-start; /* Rata kiri secara vertikal */
     justify-content: flex-start; /* Rata kiri secara horizontal */
-    font-size: 2.5vw; /* Pengecilan teks otomatis berdasarkan ukuran layar */
+    font-size: 8vw; /* Pengecilan teks otomatis berdasarkan ukuran layar */
   }
 
   /* Jika ada elemen spesifik dalam skills__names yang perlu diatur lebih lanjut */
   .skills__names h3,
   .skills__names p {
-    font-size: 2.5vw; /* Pastikan semua teks menyesuaikan */
+    font-size: 8vw; /* Pastikan semua teks menyesuaikan */
   }
 }
 
