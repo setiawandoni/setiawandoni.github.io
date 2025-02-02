@@ -317,13 +317,13 @@ img {
     display: flex;
     align-items: flex-start; /* Atur elemen agar rata kiri secara vertikal */
     justify-content: flex-start; /* Mengatur agar elemen flex berada di kiri secara horizontal */
-    font-size: 10px; /* Pengecilan teks otomatis */
+    font-size: 5px; /* Pengecilan teks otomatis */
   }
 
   /* Jika ada elemen dalam skills__names yang memerlukan font-size lebih kecil */
   .skills__names h3,
   .skills__names p {
-    font-size: 10px; /* Sesuaikan ukuran teks untuk heading atau paragraf */
+    font-size: 5px; /* Sesuaikan ukuran teks untuk heading atau paragraf */
   }
 }
 
