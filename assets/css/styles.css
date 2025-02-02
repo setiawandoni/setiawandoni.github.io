@@ -316,14 +316,7 @@ img {
   .skills__names {
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* Rata kiri secara horizontal */
-    font-size: 10vw; /* Pengecilan teks otomatis berdasarkan ukuran layar */
-  }
-
-  /* Jika ada elemen spesifik dalam skills__names yang perlu diatur lebih lanjut */
-  .skills__names h3,
-  .skills__names p {
-    font-size: 10vw; /* Pastikan semua teks menyesuaikan */
+    justify-content: flex-start; 
   }
 }
 
