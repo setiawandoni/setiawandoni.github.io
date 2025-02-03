@@ -428,16 +428,16 @@ img {
   .timeline-image {
     width: 60px;
     height: 60px;
-    border-radius: 50%;
-    overflow: hidden; 
-    display: flex; 
-    border: 1px solid #736767; /* Tambahkan border untuk memastikan proporsi */
-    background: white; /* Pastikan warna background */
     margin-left: 2.5rem;
     margin-right: auto; /* Mengatur margin kanan otomatis */
     position: relative;
     left: 0; /* Pastikan gambar tidak bergeser */
-    top: 0; 
+    top: 0;
+    border-radius: 50%;
+    overflow: hidden; 
+    display: flex; 
+    border: 1px solid #736767; /* Tambahkan border untuk memastikan proporsi */
+    background: white; /* Pastikan warna background */ 
   }
 
   .timeline-image img {
