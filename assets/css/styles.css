@@ -429,7 +429,7 @@ img {
    width: 60px;
    height: 60px;
    margin: 2.5rem auto; /* Mengatur margin atas bawah dan kiri kanan otomatis */
-   position: relative;
+   position: absolute;
    border-radius: 50%;
    overflow: hidden;
    display: flex;
