@@ -433,6 +433,11 @@ img {
     position: relative;
     left: 0; /* Pastikan gambar tidak bergeser */
     top: 0; /* Pastikan gambar tetap pada posisi normal */
+    border-radius: 50%;
+    overflow: hidden; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
   }
   .timeline-image img {
     width: 100%; /* Pastikan gambar menyesuaikan dengan lingkaran */
