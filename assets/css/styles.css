@@ -429,6 +429,7 @@ img {
     width: 60px;
     height: 60px;
     margin-left: 2.5rem; /* Sesuaikan posisi */
+    margin-right: auto;
     position: relative;
     left: 0; /* Pastikan gambar tidak bergeser */
     top: 0; /* Pastikan gambar tetap pada posisi normal */
