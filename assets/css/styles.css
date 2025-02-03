@@ -428,7 +428,7 @@ img {
   .timeline-image {
     width: 60px;
     height: 60px;
-    margin-left: auto; /* Mengatur margin kiri otomatis */
+    margin-left: 2.5rem;
     margin-right: auto; /* Mengatur margin kanan otomatis */
     position: relative;
     left: 0; /* Pastikan gambar tidak bergeser */
