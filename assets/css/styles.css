@@ -431,8 +431,6 @@ img {
     border-radius: 50%;
     overflow: hidden; 
     display: flex; 
-    justify-content: center;
-    align-items: center;
     border: 1px solid #736767; /* Tambahkan border untuk memastikan proporsi */
     background: white; /* Pastikan warna background */
     margin-left: 2.5rem;
