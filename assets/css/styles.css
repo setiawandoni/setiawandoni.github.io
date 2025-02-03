@@ -435,6 +435,11 @@ img {
     align-items: center;
     border: 1px solid #736767; /* Tambahkan border untuk memastikan proporsi */
     background: white; /* Pastikan warna background */
+    margin-left: 2.5rem;
+    margin-right: auto; /* Mengatur margin kanan otomatis */
+    position: relative;
+    left: 0; /* Pastikan gambar tidak bergeser */
+    top: 0; 
   }
 
   .timeline-image img {
