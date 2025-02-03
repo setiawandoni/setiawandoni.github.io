@@ -431,14 +431,14 @@ img {
    margin-left: 2.5rem; /* Mengatur margin atas bawah dan kiri kanan otomatis */
    margin-right: auto;
    position: relative;
+   left: 0;
+   top: 0;
    border-radius: 50%;
    overflow: hidden;
    display: flex;
    border: 1px solid #736767;
    background: white;
    box-sizing: border-box;
-   top: 0;
-   left: 0;
   }
   .timeline-image img {
    width: 100%;
