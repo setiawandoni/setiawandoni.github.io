@@ -434,7 +434,7 @@ img {
     top: 0; /* Pastikan gambar tetap pada posisi normal */
     
     /* Pastikan tetap lingkaran */
-    border-radius: 100%;
+    border-radius: 50%;
     overflow: hidden; 
     display: flex; 
     justify-content: center;
