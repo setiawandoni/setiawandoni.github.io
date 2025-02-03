@@ -428,11 +428,17 @@ img {
   .timeline-image {
     width: 60px;
     height: 60px;
-    margin-left: 2.5rem;
-    margin-right: auto; /* Mengatur margin kanan otomatis */
+    margin-left: 2.5rem; /* Sesuaikan posisi */
     position: relative;
     left: 0; /* Pastikan gambar tidak bergeser */
     top: 0; /* Pastikan gambar tetap pada posisi normal */
+    
+    /* Pastikan tetap lingkaran */
+    border-radius: 50%;
+    overflow: hidden; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
   }
 
   /* Garis tengah disesuaikan */
