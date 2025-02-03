@@ -433,7 +433,7 @@ img {
     position: relative;
     left: 0; /* Pastikan gambar tidak bergeser */
     top: 0; /* Pastikan gambar tetap pada posisi normal */
-    border-radius: 50%;
+    border-radius: 100%;
     overflow: hidden; 
     display: flex; 
     justify-content: center;
