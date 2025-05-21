@@ -68,6 +68,13 @@ const closeBtn = document.querySelector(".close");
 
 const projectData = [
     {
+        title: " Leveraging Sales Data of PT Sejahtera Bersama for Sustainable Growth and Optimization",
+        img: "assets/img/work7.png",
+        analysis: "Sales data reveals that the Robots category generates the highest revenue, while eBooks have the highest order quantity. The top-performing cities in sales are Washington, Houston, and San Diego, and sales trends fluctuate throughout the year, with certain months experiencing significant peaks.",
+        insight: "These trends indicate that high-volume but low-revenue categories can be optimized through bundling or upselling, while cities with strong sales performance should be prioritized for targeted marketing efforts. Additionally, seasonal patterns present opportunities for more strategic promotions.",
+        recommendation: " To enhance sales performance, strategies include offering bundling and discounts for eBooks and Training Videos, increasing marketing efforts in high-sales cities, and driving Average Order Value (AOV) growth in high-order cities. Furthermore, seasonal promotions, cross-selling strategies, and loyalty programs can be implemented to boost customer retention and long-term revenue growth." 
+    },
+    {
         title: "2024 Diastima Sales Performance Analysis: Key Insights and Strategic Recommendations",
         img: "assets/img/work1.png",
         analysis: "The sales trend in 2024 shows a significant spike in only certain months. The top three best-selling products are keychains, jackets, and jerseys. The comparison of revenue between online and offline sales channels reveals a large gap.",
