@@ -286,27 +286,7 @@ img {
   display: flex;
   align-items: center;
 }
-.skills__bar {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  background-color: var(--first-color);
-  height: 0.25rem;
-  border-radius: 0.5rem;
-  z-index: var(--z-back);
-}
-.skills__html {
-  width: 90%;
-}
-.skills__css {
-  width: 70%;
-}
-.skills__js {
-  width: 70%;
-}
-.skills__ux {
-  width: 80%;
-}
+
 .skills__img {
   border-radius: 0.5rem;
 }
