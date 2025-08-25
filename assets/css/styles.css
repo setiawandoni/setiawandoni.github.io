@@ -268,7 +268,7 @@ img {
 }
 .skills__data {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   position: relative;
   font-weight: var(--font-semi);
@@ -294,6 +294,18 @@ img {
   height: 0.25rem;
   border-radius: 0.5rem;
   z-index: var(--z-back);
+}
+.skills__MicrosoftExcel {
+  width: 85%;
+}
+.skills__SQL {
+  width: 85%;
+}
+.skills__BITools {
+  width: 85%;
+}
+.skills__Python {
+  width: 85%;
 }
 
 .skills__img {
