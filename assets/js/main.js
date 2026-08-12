@@ -70,37 +70,37 @@ const projectData = [
     {
         title: " Leveraging Sales Data of PT Sejahtera Bersama for Sustainable Growth and Optimization",
         img: "assets/img/work7.png",
-        analysis: "Sales data reveals that the Robots category generates the highest revenue, while eBooks have the highest order quantity. The top-performing cities in sales are Washington, Houston, and San Diego, and sales trends fluctuate throughout the year, with certain months experiencing significant peaks.",
-        insight: "These trends indicate that high-volume but low-revenue categories can be optimized through bundling or upselling, while cities with strong sales performance should be prioritized for targeted marketing efforts. Additionally, seasonal patterns present opportunities for more strategic promotions.",
-        recommendation: " To enhance sales performance, strategies include offering bundling and discounts for eBooks and Training Videos, increasing marketing efforts in high-sales cities, and driving Average Order Value (AOV) growth in high-order cities. Furthermore, seasonal promotions, cross-selling strategies, and loyalty programs can be implemented to boost customer retention and long-term revenue growth." 
+        context_objective: "Context",
+        execution_approach: "Approach",
+        insights_recommendations: "Sales data reveals that the Robots category generates the highest revenue, while eBooks have the highest order quantity. The top-performing cities in sales are Washington, Houston, and San Diego, and sales trends fluctuate throughout the year, with certain months experiencing significant peaks. These trends indicate that high-volume but low-revenue categories can be optimized through bundling or upselling, while cities with strong sales performance should be prioritized for targeted marketing efforts. Additionally, seasonal patterns present opportunities for more strategic promotions. To enhance sales performance, strategies include offering bundling and discounts for eBooks and Training Videos, increasing marketing efforts in high-sales cities, and driving Average Order Value (AOV) growth in high-order cities. Furthermore, seasonal promotions, cross-selling strategies, and loyalty programs can be implemented to boost customer retention and long-term revenue growth." 
     },
     {
         title: "2024 Diastima Sales Performance Analysis: Key Insights and Strategic Recommendations",
         img: "assets/img/work1.png",
-        analysis: "The sales trend in 2024 shows a significant spike in only certain months. The top three best-selling products are keychains, jackets, and jerseys. The comparison of revenue between online and offline sales channels reveals a large gap.",
-        insight: "Sales tend to increase only during specific periods, such as during events. However, keychain sales remain consistent even on regular days, making it the best-selling product. On the other hand, online marketing efforts appear to be less effective in converting website visitors into buyers on e-commerce platforms.",
-        recommendation: "Always identify sales opportunities during specific event periods or times. Focus on expanding the product range, especially the most popular keychain designs. Additionally, improve marketing strategies to enhance the effectiveness of online sales conversions." 
+        context_objective: "Context",
+        execution_approach: "Approach",
+        insights_recommendations: "Sales tend to increase only during specific periods, such as during events. However, keychain sales remain consistent even on regular days, making it the best-selling product. On the other hand, online marketing efforts appear to be less effective in converting website visitors into buyers on e-commerce platforms. Always identify sales opportunities during specific event periods or times. Focus on expanding the product range, especially the most popular keychain designs. Additionally, improve marketing strategies to enhance the effectiveness of online sales conversions." 
     },
     {
         title: "Analysis of Social Buzz Content Categories with the Highest Popularity",
         img: "assets/img/work2.png",
-        analysis: "The best-performing content categories were found to be animals and science. Notably, the third-ranked healthy food content indicated that the audience of Social Buzz content comprised individuals who want to live a healthy lifestyle.",
-        insight: "Interestingly, these were consolidated into just three categories: animals, science and technology, and healthy food. This consolidation was observed to accumulate viewers.",
-        recommendation: "Further optimizing content in these three categories to increase Social Buzz content engagement was recommended"
+        context_objective: "Context",
+        execution_approach: "Approach",
+        insights_recommendations: "The best-performing content categories were found to be animals and science. Notably, the third-ranked healthy food content indicated that the audience of Social Buzz content comprised individuals who want to live a healthy lifestyle. Interestingly, these were consolidated into just three categories: animals, science and technology, and healthy food. This consolidation was observed to accumulate viewers. Further optimizing content in these three categories to increase Social Buzz content engagement was recommended"
     },
     {
         title: "COVID-19 Data Analysis for the Year 2020-2021",
         img: "assets/img/work3.png",
-        analysis: "The global positive rate is 19.67%. The positive rate in ASEAN countries is 10.11%, which is 9.56% lower than the global scale. Additionally, the forecast predicts an increase in cases, with an estimated 18,285 new cases on July 1, 2021, indicating a need for ongoing vigilance and preparedness.",
-        insight: "The data shows a significant disparity in the positive rate between the global and ASEAN regions, with ASEAN countries having a lower rate of 10.11% compared to the global rate of 19.67%. Unfortunately, this could be due to the relatively low testing rates in ASEAN countries, which may result in many undetected cases.",
-        recommendation: "To prevent this possibility, it is recommended that countries worldwide, especially in ASEAN, increase their testing capacities while keeping the positive rate as low as possible. Each country needs to continue public health efforts, vaccination campaigns, and ongoing monitoring to prevent unexpected or uncontrolled spikes in cases."
+        context_objective: "Context",
+        execution_approach: "Approach",
+        insights_recommendations: "The forecast predicts an increase in cases, with an estimated 18,285 new cases on July 1, 2021, indicating a need for ongoing vigilance and preparedness. Additionally, the data shows a significant disparity in the positive rate between the global and ASEAN regions, with ASEAN countries having a lower rate of 10.11% compared to the global rate of 19.67%. Unfortunately, this could be due to the relatively low testing rates in ASEAN countries, which may result in many undetected cases. To prevent this possibility, it is recommended that countries worldwide, especially in ASEAN, increase their testing capacities while keeping the positive rate as low as possible. Each country needs to continue public health efforts, vaccination campaigns, and ongoing monitoring to prevent unexpected or uncontrolled spikes in cases."
     },
     {
         title: "Hypothesis Testing and Statistical Modeling of Facebook Ad Conversion Relationships",
         img: "assets/img/work4.png",
-        analysis: "The Simple Linear Regression analysis reveals a statistically significant relationship and a positive correlation between the number of Facebook ad clicks and the number of conversions. This finding aligns with the predicted hypothesis that more clicks will lead to an increase in conversions.",
-        insight: "This indicates that each additional click on a Facebook ad is likely to result in an increase in conversions, highlighting the direct impact of ad engagement on user actions.",
-        recommendation: "Focus on strategies to increase the number of ad clicks, such as enhancing ad creatives, refining targeting, and conducting A/B testing to optimize click-through rates and ultimately boost conversion rates."
+        context_objective: "Context",
+        execution_approach: "Approach",
+        insights_recommendations: "The Simple Linear Regression analysis reveals a statistically significant relationship and a positive correlation between the number of Facebook ad clicks and the number of conversions. This finding aligns with the predicted hypothesis that more clicks will lead to an increase in conversions. This indicates that each additional click on a Facebook ad is likely to result in an increase in conversions, highlighting the direct impact of ad engagement on user actions. Focus on strategies to increase the number of ad clicks, such as enhancing ad creatives, refining targeting, and conducting A/B testing to optimize click-through rates and ultimately boost conversion rates."
     },
     
 ];
