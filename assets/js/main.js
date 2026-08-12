@@ -77,8 +77,8 @@ const projectData = [
     {
         title: "2024 Diastima Sales Performance Analysis: Key Insights and Strategic Recommendations",
         img: "assets/img/work1.png",
-        context_objective: "Context",
-        execution_approach: "Approach",
+        context_objective: "As an emerging brand dedicated to disseminating astronomical knowledge through fashion and merchandise, Diastima required a reliable system to track its initial business operations. The primary objective was to design a centralized and accessible monitoring system to track daily sales, inventory movements, and revenue, enabling the team to analyze product performance in real-time.",
+        execution_approach: "I developed a structured master data log using Google Sheets to accurately record incoming and outgoing inventory, product series, and transaction prices. I then connected this dataset to Looker Studio to design a live monitoring dashboard. By establishing this automated data pipeline, any updates in the master sheet are instantly visualized, allowing the team to conduct accessible, real-time sales analysis on the go.",
         insights_recommendations: "Sales tend to increase only during specific periods, such as during events. However, keychain sales remain consistent even on regular days, making it the best-selling product. On the other hand, online marketing efforts appear to be less effective in converting website visitors into buyers on e-commerce platforms. Always identify sales opportunities during specific event periods or times. Focus on expanding the product range, especially the most popular keychain designs. Additionally, improve marketing strategies to enhance the effectiveness of online sales conversions." 
     },
     {
