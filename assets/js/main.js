@@ -61,9 +61,9 @@ sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200});
 const modal = document.getElementById("portfolioModal");
 const modalTitle = document.getElementById("modalTitle");
 const modalImage = document.getElementById("modalImage");
-const modalcontext = document.getElementById("modalcontext");
-const modalapproach = document.getElementById("modalapproach");
-const modalkey_outcomes = document.getElementById("modalkey_outcomes");
+const modalContext = document.getElementById("modalcontext");
+const modalApproach = document.getElementById("modalapproach");
+const modalKey_Outcomes = document.getElementById("modalkey_outcomes");
 const closeBtn = document.querySelector(".close");
 
 const projectData = [
@@ -111,9 +111,9 @@ document.querySelectorAll(".work__img").forEach((item, index) => {
 
         modalTitle.textContent = projectData[index].title;
         modalImage.src = projectData[index].img;
-        modalcontext.textContent = projectData[index].context;
-        modalapproach.textContent = projectData[index].approach;
-        modalkey_outcomes.textContent = projectData[index].key_outcomes;
+        modalContext.textContent = projectData[index].context;
+        modalApproach.textContent = projectData[index].approach;
+        modalKey_Outcomes.textContent = projectData[index].key_outcomes;
 
         modal.style.display = "flex";
     });
