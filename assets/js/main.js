@@ -61,9 +61,9 @@ sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200});
 const modal = document.getElementById("portfolioModal");
 const modalTitle = document.getElementById("modalTitle");
 const modalImage = document.getElementById("modalImage");
-const modalAnalysis = document.getElementById("modalAnalysis");
-const modalInsight = document.getElementById("modalInsight");
-const modalRecommendation = document.getElementById("modalRecommendation");
+const modalcontext = document.getElementById("modalcontext");
+const modalapproach = document.getElementById("modalapproach");
+const modalkey_outcomes = document.getElementById("modalkey_outcomes");
 const closeBtn = document.querySelector(".close");
 
 const projectData = [
