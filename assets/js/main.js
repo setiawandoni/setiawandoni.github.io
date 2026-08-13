@@ -68,6 +68,13 @@ const closeBtn = document.querySelector(".close");
 
 const projectData = [
     {
+        title: "Gravitational Lens Parameters Estimation at Intermediate Redshifts Using Convolutional Neural Networks (SQL, Python)",
+        img: "assets/img/work8.png",
+        context: "With upcoming wide field galaxy surveys generating massive datasets, traditional analytical methods like MCMC have become computationally expensive and highly reliant on manual inspection. This created a need to optimize an automated machine learning pipeline to rapidly extract insights from large scale image data.",
+        approach: "The data preparation phase involved querying the HSC-SSP PDR3 database via SQL. I applied strict filtering conditions to isolate faint objects and remove noise inherent to ground based telescopes. Building upon this clean dataset, I utilized TensorFlow to enhance a baseline Convolutional Neural Network. The architecture was systematically optimized by shifting to a three channel input to reduce noise, replacing PReLU with SiLU activations for better computational efficiency, and introducing Spatial Dropout in deeper layers. To further improve robustness against outliers, Global Average Pooling and the Huber loss function were integrated into the final model.",
+        key_outcomes: "The enhanced CNN demonstrated clear improvements over the previous baseline, particularly in predicting the Einstein radius and axis ratio with better Mean Absolute Error and R squared metrics. While estimating certain angular features continues to pose a challenge due to natural degeneracies, the overall model generalization improved significantly. This refined SQL and deep learning workflow provides a highly scalable foundation for rapid data analysis in future wide field surveys." 
+    },
+    {
         title: "Sales Performance Analysis & Commercial Strategy (MySQL, Tableau)",
         img: "assets/img/work7.png",
         context: "PT Sejahtera Bersama required an in-depth analysis of their transaction data to identify sales trends, evaluate product performance, and understand customer behavior. The goal was to build an interactive dashboard that provides data-driven strategies for sustaining and increasing long-term sales.",
