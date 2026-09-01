@@ -68,6 +68,13 @@ const closeBtn = document.querySelector(".close");
 
 const projectData = [
     {
+        title: "Hidden Regional B2B Concentration & Product Level Growth Pattern Analysis (Excel, Power BI, Python)",
+        img: "assets/img/work10.png",
+        context: "Beyond routine reporting, I took on the challenge of identifying unrealized growth opportunities among priority products from the division's sales transaction dataset, patterns that standard reporting wasn't structured to surface.",
+        approach: "I started in Excel to establish a clear operational definition of what qualified as a B2B transaction and to check the raw data structure and field availability. From there, I moved to Power BI to visualize regional contribution and identify top performing products. In Python, I added a pure customer filter, isolating customers who purchased a single product line, to get a cleaner read on standalone product demand. Feeding this back into Power BI surfaced one priority product with a contribution pattern distinctly different from the province's overall trend, revealing a month over month upward movement and a shifting pattern among the top 3 cities within that province.",
+        key_outcomes: "The analysis provided statistically grounded evidence of a concentrated, actively shifting demand pattern that was invisible in standard reporting, where a small fraction of order volume was found to generate a disproportionate majority of regional item revenue. However, the quantitative data could explain what was happening but not why. This gap became the key feedback during the review meeting and directly justified proposing a qualitative research phase to investigate the root cause behind the product's performance in these specific cities." 
+    },
+    {
         title: "Dynamic Performance Dashboard Enhancement & Data Modeling (Power BI, DAX)",
         img: "assets/img/work9.png",
         context: "Within the existing performance dashboard, the trend analysis was rigidly limited to Year-to-Date (YTD) data. Furthermore, individual line charts for each SKU were spread across two separate pages, making cross-comparisons highly inefficient. As business complexity grew, stakeholders required a more scalable solution to track historical trends across multiple years and conduct granular, cross-functional comparisons across SKUs, Segments, and Platforms seamlessly.",
